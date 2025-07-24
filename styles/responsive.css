@@ -8,21 +8,42 @@
   font-style: normal;
   font-variation-settings:
 }
-.display-flex{
-    display: flex;
+
+
+*{
+    margin-bottom: 80px;
 }
 
 /* shared related styles */
 
+.display-flex{
+    display: flex;
+}
+.text-align{
+    text-align: center;
+    margin: 30px 30px;
+}
 
 /* header styles */
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.orange{
+    color: #E95A08;
+}
+.banner-description, .plants-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.35rem;
+}
 
 
 /* navbar related styles */
-.nav-bar, .banner{
+.nav-bar,.banner{
     justify-content: space-between;
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
+    align-items: center;
 }
 .nav-item a{ 
     text-decoration: none;
@@ -41,4 +62,98 @@
 }
 .dark-light{
     color: #8987A1;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.plants-title{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.our{
+    color: #E95A08;
+}
+.plant-title, .plant-description{
+    color: #111111;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #E95A08;
+    border: none;
+    padding: 20px;
+    color: white;
+    width: 270px;
+}
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.plant img{
+    margin-bottom: 20px;
+}
+.plant .plant-description{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.margin{
+    gap: 10px;
+}
+.lover-title{
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 50px;
+}
+.flower-lovers{
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+    height: 520px;
+}
+.flower{
+    gap: 60px;
+    margin-bottom: 20px;
+}
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    *{
+        margin-bottom: 40px;
+    }
+    .nav-bar, .nav-links{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-right: 20px;
+
+     }
+     .plant-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin: 0 auto;
+     }
+     .banner{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        margin-right: 20px;
+     }
+     .banner-image{
+        width: 100%;
+     }
+     .none{
+        display: none;
+     }
+     .flowers-lover{
+        flex-direction: column;
+     }
+     .flowers-lover img{
+        width: 100%;
+     }
 }
