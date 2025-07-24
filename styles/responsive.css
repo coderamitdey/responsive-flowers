@@ -120,6 +120,55 @@ main{
     gap: 60px;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer styles */
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.footer-head img{
+    margin-bottom: 16px;
+}
+.footer-nav a{
+    text-decoration: none;
+}
+.footer-nav li{
+    list-style: none;
+}
+.footer-nav{
+    display: flex;
+}
+.footer-img img{
+    padding: 10px;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     *{
@@ -155,5 +204,14 @@ main{
      }
      .flowers-lover img{
         width: 100%;
+     }
+     .footer-sec{
+        flex-direction: column;
+     }
+     .footer-nav{
+        flex-direction: column;
+     }
+     .first{
+        margin-bottom: auto;
      }
 }
