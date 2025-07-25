@@ -10,7 +10,7 @@
 
 </head>
 <body class="noto-serif-font">
-    <header>
+    <header class="max-width">
        <nav class="nav-bar display-flex">
         <div>
         
@@ -35,7 +35,7 @@
     </div>
     </header>
     <main>
-         <section class="plants">
+         <section class="plants max-width">
 
             <h3 class="plants-title text-align"><span class="our">Our</span> Plants</h3>
             <p class="plants-description text-align">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -95,7 +95,7 @@
          
         
         </section class="flower-lovers">
-        <div class="flowers-lover display-flex">
+        <div class="flowers-lover display-flex max-width">
         <div class="third">
          <img class="relative" src="assets/flower-store.png" alt="">
          <img class="badge" src="assets/trusted-badge.png" alt="">
@@ -114,23 +114,43 @@
         </div>
         
         </div>
-
-         <section class="latest-deals">
-            <div>
-                <h3 class="plants-title text-align"><span class="our">Latest</span> Deals</h3>
-                <p class="deal-description banner-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+       
+        <!-- latest deals section -->
+<section class="Latest-Deals-margin max-width">
+        <div class="our-plants Latest-Deals">
+          <h1 class="our-plants-h plants-title"><span class="our">Latest</span> Deals</h1>
+          <p class="our-plants-P banner-description">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+        <div class="card-container">
+          <div class="promo-card" id="first-card">
+            <div class="card-content">
+              <h1>60% Off | Bloom Plant</h1>
+              <a href="" class="shop-now">Shop Now</a>
             </div>
-            <div class="wrapper">
-                <div class="image"></div>
-                <img src="assets/deal-bloom.png" alt="">
-                <img src="assets/deal-ana.png" alt="">
-                <div class="cont">
-                   <h3>60% Off | Bloom Plant</h3>
-                   <p>Shop Now</p> 
-                </div>
-            </div>
+          </div>
 
-        </section class="subscribe-section">
+          <div class="promo-card card-content-header" id="second-card">
+            <div class="card-content">
+              <h1 class="card-content-second">25% Off | Zabo Plant</h1>
+              <a href="" class="shop-now card-content-shop card-content-shop-3 ">Shop Now</a>
+            </div>
+          </div>
+
+          <div class="promo-card" id="third-card">
+            <div class="card-content">
+              <h1>30% Off | Ana Plant</h1>
+              <a href="" class="shop-now">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            
+        <section class="subscribe-section">
         <img class="overlay" src="assets/news-letter-bg.png" alt="">
                 
     <div class="content">
@@ -143,7 +163,7 @@
 
          </section>
     </main>
-    <footer class="footer-sec">
+    <footer class="footer-sec max-width">
          <div class="footer-head">
             <img src="assets/logo.png" alt="">
             <p class="banner-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
