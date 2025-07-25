@@ -392,10 +392,11 @@
 .join{
     font-size: 1.5rem;
     padding-left: 25px;
+    padding-bottom: 10px;
 }
 .bunch-button{
     padding: 10px;
-    width: 70px;
+    width: 80px;
 }
 .bunch-button:hover{
     background-color: gray;
