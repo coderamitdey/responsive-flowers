@@ -395,14 +395,14 @@
 }
 .bunch-button{
     padding: 10px;
-    width: 100px;
+    width: 70px;
 }
 .bunch-button:hover{
     background-color: gray;
 }
 .email{
     padding: 10px;
-    width: 200px;
+    width: 180px;
 }
 .deal-container{
     width: 100%;
