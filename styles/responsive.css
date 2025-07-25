@@ -136,10 +136,12 @@ main{
     margin-top: -50%;
     margin-left: 50%;
     width: 440px;
+    box-shadow: rgba(0, 0, 0, 0.25);
 }
 .relative{
     position: absolute;
 }
+/* latest deals styles */
 
 
 
@@ -153,18 +155,26 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*colorful bunch styles  */
+.subscribe-section img{
+    width: 100%;
+    position: relative;
+}
+.content{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -25%;
+    margin-right: 15%;
+}
+.join{
+    color: #FFFFFF;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.email{
+    padding:  18px;
+    padding-left: 60px;
+}
 
 
 /* footer styles */
@@ -206,7 +216,6 @@ main{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 10px;
-        margin: 50px 10px 50px;
      }
      .banner{
         flex-direction: column-reverse;
@@ -236,8 +245,8 @@ main{
         margin-bottom: auto;
      }
      .love{
-        margin-top: 50px;
-        margin-left: 10px;
+        margin-top: 130px;
+        margin-left: 5px;
      }
      .relative{
         width: 100%;
@@ -245,4 +254,58 @@ main{
      .badge{
         display: none;
      }
+     .overlay{
+        width: 100%;
+        height: 276px;
+     }
+     .content{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -50%;
+    margin-right: 15%;
+}
+.join{
+    font-size: 1.5rem;
+}
+.bunch-button{
+    padding: 10px;
+    width: 80px;
+}
+.email{
+    padding: 10px;
+}
+}
+
+
+
+
+
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 920px) {
+        .content{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -45%;
+    margin-right: 15%;
+}
+ .overlay{
+        width: 100%;
+     }
+     .join{
+    font-size: 1.5rem;
+}
+     .bunch-button{
+    padding: 10px;
+    width: 100px;
+}
+.email{
+    padding: 10px;
+}
+  .plant-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        
+     }
+    
 }
